@@ -37,11 +37,13 @@ end
 
 def hit?(curtotal)
   # code hit? here
-  
-  
-  if get_user_input == "h"
+  prompt_user
+  user_input = get_user_input  
+  if user_input == "h"
     curtotal += deal_card
-  elseif 
+  else if user_input != "s"
+    invalid_command
+  end
     
   
 end
