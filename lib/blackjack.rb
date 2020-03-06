@@ -25,14 +25,25 @@ end
 
 def end_game(card_total)
   # code #end_game here
+  puts "Sorry, you hit #{card_total}. Thanks for playing!"
 end
 
 def initial_round
   # code #initial_round here
+  deal1 = deal_card
+  deal2 = deal_card
+  display_card_total(deal1 + deal2)
 end
 
-def hit?
+def hit?(curtotal)
   # code hit? here
+  
+  
+  if get_user_input == "h"
+    curtotal += deal_card
+  elseif 
+    
+  
 end
 
 def invalid_command
