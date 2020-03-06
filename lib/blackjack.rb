@@ -48,7 +48,6 @@ def hit?(curtotal)
     binding.pry
     invalid_command
     prompt_user
-    
   end
   curtotal
 end
