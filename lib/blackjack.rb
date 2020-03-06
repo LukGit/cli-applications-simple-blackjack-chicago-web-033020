@@ -47,6 +47,7 @@ def hit?(curtotal)
   elsif user_input != "s"
     invalid_command
     prompt_user
+    get_user_input
   end
   curtotal
 end
