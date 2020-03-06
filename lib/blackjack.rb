@@ -45,7 +45,6 @@ def hit?(curtotal)
   if user_input == "h"
     curtotal += deal_card
   elsif user_input != "s"
-    binding.pry
     invalid_command
     prompt_user
   end
