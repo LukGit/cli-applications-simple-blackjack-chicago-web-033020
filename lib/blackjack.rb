@@ -45,6 +45,7 @@ def hit?(curtotal)
     curtotal += deal_card
   elsif user_input != "s"
     invalid_command
+    prompt_user
   end
   curtotal
 end
