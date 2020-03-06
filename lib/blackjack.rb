@@ -32,7 +32,9 @@ def initial_round
   # code #initial_round here
   deal1 = deal_card
   deal2 = deal_card
-  display_card_total(deal1 + deal2)
+  sum = deal1 + deal2
+  display_card_total(sum)
+  sum
 end
 
 def hit?(curtotal)
